@@ -2,12 +2,13 @@ import React from 'react'
 import { Button } from './Button'
 import '../App.css'
 import './Welcome.css'
+import videos from '../videos/welcome.mp4'
 
 function Welcome() {
   return (
     <div className='welcome-container'>
         {/* Video */}
-        <video src="public/videos/welcome.mp4" autoPlay loop muted />
+        <video src={videos} autoPlay loop muted />
         <h1>WELCOME</h1>
         <p>AlexFigas.github.io</p>
         <div className="welcome-btns">

@@ -5,7 +5,7 @@ import Welcome from '../Welcome'
 function Home() {
     return(
         <>
-            <Welcome></Welcome>
+            <Welcome/>
         </>
     );
 }
