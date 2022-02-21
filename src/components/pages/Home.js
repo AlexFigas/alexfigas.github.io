@@ -3,9 +3,9 @@ import '../../App.css'
 import Welcome from '../Welcome'
 
 function Home() {
-    return(
+    return (
         <>
-            <Welcome/>
+            <Welcome />
         </>
     );
 }
