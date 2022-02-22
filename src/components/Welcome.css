@@ -44,10 +44,20 @@ video {
     margin-left: 4px;
 }
 
+.welcome-img {
+    border-radius: 100%;
+    margin-bottom: 100px;
+    border: 5px solid #fff;
+    width: 175px;
+}
+
 @media screen and (max-width: 960px) {
     .welcome-container > h1 {
         font-size: 70px;
         margin-top: -150px;
+    }
+    .welcome-img {
+        margin-bottom: 150px;
     }
 }
 
@@ -69,5 +79,9 @@ video {
 
     .btn{
         width: 100%;
+    }
+
+    .welcome-img {
+        margin-bottom: 100px;
     }
 }
