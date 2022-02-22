@@ -6,8 +6,9 @@
 }
 
 .home,
-.about,
-.projects {
+.about-me,
+.projects,
+.contact-me {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -15,12 +16,12 @@
   font-size: 3rem;
 }
 
-.about {
+.about-me {
   /* background-image: url('./images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  /* color: #fff; */
   font-size: 100px;
 }
 
@@ -29,6 +30,15 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  /* color: #fff; */
+  font-size: 100px;
+}
+
+.contact-me {
+  /* background-image: url('/images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* color: #fff; */
   font-size: 100px;
 }

@@ -30,7 +30,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img className='navbar-icon' src={whiteLogo}/>
+                        <img className='navbar-icon' src={whiteLogo} />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -54,7 +54,7 @@ function Navbar() {
                         </li>
                     </ul>
                     {/* Navbar Mobile Buttons */}
-                    {/* {button && <Button buttonStyle="btn--outline">HOME</Button>} */}
+                    {button && <Button onClick={(e) => { window.location.href = 'Contact-Me' }} buttonStyle="btn--outline">Contact Me</Button>}
                 </div>
             </nav>
         </>
