@@ -159,5 +159,11 @@
       color: #242424;
       transition: 250ms;
     }
+
+    .navbar-icon {
+      position: absolute;
+      top: -60px;
+      left: 60px;
+    }
   }
   

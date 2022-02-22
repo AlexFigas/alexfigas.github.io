@@ -15,7 +15,7 @@ function Welcome() {
             <p>AlexFigas.github.io</p>
             <div className="welcome-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onClick={(e) => { window.location.href = 'About-Me' }}>ABOUT ME</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={(e) => { e.preventDefault(); window.location.href = 'https://github.com/AlexFigas'; }}>GITHUB</Button>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={(e) => { e.preventDefault(); window.open('https://github.com/AlexFigas', "_blank"); }}>GITHUB</Button>
             </div>
         </div>
     )
