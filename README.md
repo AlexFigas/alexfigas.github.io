@@ -27,6 +27,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+### `npm run deploy`
+
+`Build` the app and `Deploy` to the server. In my case, I only run npm run deploy when I want the GitHub page to be updated.
+Commits do not update the page.
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
