@@ -5,7 +5,7 @@ import './Welcome.css'
 import videos from '../videos/welcome.mp4'
 import welcomeImage from '../images/welcome-img.png'
 
-function Welcome() {    
+function Welcome() {
 
     return (
         <div className='welcome-container'>
@@ -16,7 +16,7 @@ function Welcome() {
             <p>AlexFigas.github.io</p>
             <div className="welcome-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' to="/About-Me">ABOUT ME</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={(e) => { window.open('https://github.com/AlexFigas', "_blank"); }}>GITHUB</Button>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={() => { window.open('https://github.com/AlexFigas', "_blank"); }}>GITHUB</Button>
             </div>
         </div>
     )
