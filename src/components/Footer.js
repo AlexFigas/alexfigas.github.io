@@ -10,7 +10,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            <img className='navbar-icon' src={whiteLogo} alt='AlexFigas Logo' />
+                            <img className='footer-icon' src={whiteLogo} alt='AlexFigas Logo' />
                         </Link>
                     </div>
                     <small className='website-rights'>AlexFigas © 2022</small>
