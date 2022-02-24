@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css'
 import whiteLogo from '../images/logos/logo-white.svg'
@@ -54,7 +54,7 @@ function Navbar() {
                         </li>
                     </ul>
                     {/* Navbar Mobile Buttons */}
-                    {button && <Button onClick={(e) => { window.location.href = 'Contact-Me' }} buttonStyle="btn--outline">Contact Me</Button>}
+                    {button && <Button buttonStyle="btn--outline" to='/Contact-Me' >Contact Me</Button>}
                 </div>
             </nav>
         </>
