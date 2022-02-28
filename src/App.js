@@ -7,11 +7,14 @@ import AboutMe from './components/pages/AboutMe';
 import Projects from './components/pages/Projects';
 import ContactMe from './components/pages/ContactMe';
 import Footer from './components/Footer';
+import ScrollToTop from './tools/ScrollToTop'
 
 function App() {
+
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />} />
