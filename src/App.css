@@ -10,35 +10,26 @@
 .projects,
 .contact-me {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
 .about-me {
-  /* background-image: url('./images/img-2.jpg'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* color: #fff; */
-  font-size: 100px;
+  background-image: url('./images/about-me.jpg');
 }
 
 .projects {
-  /* background-image: url('./images/img-1.jpg'); */
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  /* color: #fff; */
-  font-size: 100px;
+  background-image: url('./images/projects.jpg');
 }
 
+
 .contact-me {
-  /* background-image: url('/images/img-8.jpg'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* color: #fff; */
-  font-size: 100px;
+  /* background-image: url('./images/img.jpg'); */
+  color: black;
 }

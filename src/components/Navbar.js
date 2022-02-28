@@ -7,6 +7,7 @@ import whiteLogo from '../images/logos/logo-white.svg'
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [navbar, setNavbar] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -25,9 +26,19 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+    const changeBackground = () => {
+        if (window.scrollY >= window.innerHeight - 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    };
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
         <>
-            <nav className='navbar'>
+            <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         <img className='navbar-icon' src={whiteLogo} alt='AlexFigas Logo' />
