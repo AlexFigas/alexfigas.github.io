@@ -77,6 +77,8 @@ p {
 
 .title-paragraph {
   font-size: 50px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #0055ff;
 }
 
 .column {
@@ -137,5 +139,30 @@ img {
 
   .title-paragraph {
     font-size: 25px
+  }
+}
+
+.react-icon {
+  -webkit-animation: spin 10s linear 20;
+  -moz-animation: spin 10s linear 20;
+  animation: spin 10s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
