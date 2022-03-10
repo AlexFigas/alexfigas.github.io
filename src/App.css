@@ -33,3 +33,109 @@
   /* background-image: url('./images/img.jpg'); */
   color: black;
 }
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  margin-top: 100px;
+  font-size: 75px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+.name-text {
+  color: #0055ff;
+  transition: transform 1s;
+  /* Animation */
+}
+
+.name-text:hover {
+  transform: scale(1.5);
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.title-paragraph {
+  font-size: 50px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width: 35%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 33.3%;
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .title-paragraph {
+    font-size: 35px
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .column {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .title-paragraph {
+    font-size: 25px
+  }
+}

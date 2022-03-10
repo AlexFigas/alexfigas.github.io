@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import whiteLogo from '../images/logos/logo-white.svg'
 
 function Footer() {
+
     return (
         <div className='footer-container'>
             <section className='social-media'>
@@ -13,7 +14,7 @@ function Footer() {
                             <img className='footer-icon' src={whiteLogo} alt='AlexFigas Logo' />
                         </Link>
                     </div>
-                    <small className='website-rights'>AlexFigas © 2022</small>
+                    <small className='website-rights'>Alexandre Figueiredo &copy; <span>{new Date().getFullYear()}</span></small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook' to='/' aria-label='Facebook' onClick={() => { window.open('https://www.facebook.com/AlexandreFigas', "_blank") }}>
                             <i className='fab fa-facebook-f' />
