@@ -13,12 +13,12 @@ function AboutMe() {
             <div className="flex-container">
                 <div className="flex-child">
                     <p className="title-paragraph">Experience</p>
-                    <p style={{ marginTop: 10 }}>🎓 Informatics and Multimedia Engineering student</p>
+                    <p className="mt-10">🎓 Informatics and Multimedia Engineering Student</p>
                     <p>🏎️ ISEL Formula Student Developer</p>
                 </div>
                 <div className="flex-child">
                     <p className="title-paragraph">Languages</p>
-                    <div class="row" style={{ marginTop: 10 }}>
+                    <div class="row mt-10">
                         <div className="column">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" />
                         </div>
@@ -45,11 +45,13 @@ function AboutMe() {
             </div>
             <div className="flex-container">
                 <div className="flex-child">
-                    <p className="title-paragraph">More About Me</p>
+                    <p className="title-paragraph">Who Am I</p>
+                    <p>🏎️ Race Car Enthusiast</p>
+                    <p>👨‍💻 Tech Nerd</p>
                 </div>
                 <div className="flex-child">
                     <p className="title-paragraph">Miscellaneous</p>
-                    <div class="row" style={{ marginTop: 10 }}>
+                    <div class="row mt-10">
                         <div className="column">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" />
                         </div>

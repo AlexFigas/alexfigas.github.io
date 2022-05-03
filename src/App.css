@@ -166,3 +166,13 @@ img {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 332px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
